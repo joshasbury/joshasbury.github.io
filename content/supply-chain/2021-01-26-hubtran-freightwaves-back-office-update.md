@@ -9,13 +9,16 @@ draft: false
 description: In this video interview, I discuss 3PL and freight broker back-office trends for 2021 with Andrew Cox of Freightwaves.
 
 image: 20210126-freightwaves-back-office-update.jpg
-show_image_in_content: true
+#image_display_class: main
+image_display_class: left
+#image_display_class: right
+#image_display_class: fit
+show_image_in_content: false
+
 youtube_embed_code: pNZymzgh2B8
 
 categories:
 - Supply Chain
-- Featured
-- Past_Events
 
 tags:
 - supply chain
@@ -24,6 +27,8 @@ tags:
 
 ---
 Josh Asbury, HubTran's Vice President of 3PL and Broker, sat down with [Andrew Cox](https://www.freightwaves.com/news/author/andrewcox) of Freightwaves.
+
+***
 
 During their conversation, Josh answered the following questions:
 * What should 3PLs and brokers be doing to start the year off strong in terms of implementing new technologies? 

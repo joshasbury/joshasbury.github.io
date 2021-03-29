@@ -20,13 +20,9 @@
                             </header>
                             {{ if .Params.image }}
                                 {{ if .Params.show_image_in_content }}
-                                    <span class="image main"><img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" /></span>
+                                    <span class="image {{ .Params.image_display_class }}"><img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" /></span>
                                 {{ end }}
-                            {{ end }}
-                            {{ if .Params.image }}
-                                {{ if .Params.show_image_in_content }}
-                                    <span class="image"><img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" /></span>
-                                {{ end }}
+                                
                             {{ end }}
 
                             {{ with .Params.youtube_embed_code }}

@@ -4,8 +4,11 @@ languageCode = "en-us"
 title = "Josh Asbury"
 theme = "forty"
 
+[markup.goldmark.renderer]
+  unsafe = true
+  
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-613249-19"
 
 # Enter your disqus shortname to enable comments
 disqusShortname = ""
@@ -94,30 +97,30 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Supply Chain Automation"
       subtitle = "Best practices for 3PLs and Freight Brokers seeking to automate freight settlement."
-      image = "pic01.jpg"
+      image = "blog-trucks-header.jpg"
       #url = "blog/aliquam"
       url = "supply-chain"
 
-    [[params.tiles.showcase]]
-      title = "Marketing"
-      subtitle = "Make the most of your marketing and communications."
-      image = "pic02.jpg"
+    #[[params.tiles.showcase]]
+    #  title = "Marketing"
+    #  subtitle = "Make the most of your marketing and communications."
+    #  image = "pic02.jpg"
       #url = "blog/tempus"
-      url = "marketing"
+    #  url = "marketing"
 
     [[params.tiles.showcase]]
       title = "Sales and Sales Operations"
       subtitle = "Build a scalable growth engine."
-      image = "pic03.jpg"
+      image = "blog-header-dollar-icon.jpg"
       #url = "blog/magna"
       url = "sales"
 
-    [[params.tiles.showcase]]
-      title = "Technology"
-      subtitle = "A roundup of technologies I use for Sales, Marketing, Web Design, and Social Media."
-      image = "pic04.jpg"
+    #[[params.tiles.showcase]]
+    #  title = "Technology"
+    #  subtitle = "A roundup of technologies I use for Sales, Marketing, Web Design, and Social Media."
+    #  image = "pic04.jpg"
       #url = "blog/ipsum"
-      url = "technology"
+    #  url = "technology"
 
     #[[params.tiles.showcase]]
     #  title = "Consequat"
